@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Music player V2</title>
+</head>
+<body>
+<h1>BIT-MUSIC</h1>
+
+<div class="music-container">
+    <div class="music-info">
+        <h4 id="title">Ukelele</h4>
+        <div class="progress-container">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <audio src="music/leto.mp3" id="audio"></audio>
+    
+    <div class="img-container">
+        <img src="./images/letodie-lyrics-f82c55.jpg" alt="music-cover"
+        id="cover">
+    </div>
+
+    <div class="navigation">
+        <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+        </button>
+    </div>    
+</div>
+
+<div class="dance-container">
+    <div class="danceLeft">
+        <img src="images/XOsX.gif" alt="" width="10%">
+        <img src="images/XOsX.gif" alt="" width="10%">
+        <img src="images/XOsX.gif" alt="" width="10%">
+    </div>
+    <div class="danceRight">
+        <img src="images/6oa.gif" alt="" width="20%">
+        <img src="images/6oa.gif" alt="" width="20%"> 
+        <img src="images/6oa.gif" alt="" width="20%"> 
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
